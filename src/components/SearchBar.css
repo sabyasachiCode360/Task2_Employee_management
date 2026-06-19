@@ -1,0 +1,68 @@
+/* Filter Container */
+.filter-container {
+  max-width: 900px;
+  margin: 20px auto;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+/* Input & Select */
+.search_input,
+.department_select {
+  padding: 12px 15px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+/* Search Input */
+.search_input {
+  flex: 1;
+}
+
+/* Department Select */
+.department_select {
+  width: 220px;
+  cursor: pointer;
+}
+
+/* Focus Effect */
+.search_input:focus,
+.department_select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 6px rgba(37, 99, 235, 0.3);
+}
+
+/* Hover */
+.search_input:hover,
+.department_select:hover {
+  border-color: #2563eb;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .filter-container {
+    gap: 10px;
+  }
+
+  .department_select {
+    width: 180px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .filter-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search_input,
+  .department_select {
+    width: 100%;
+  }
+}
