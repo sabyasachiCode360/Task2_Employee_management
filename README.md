@@ -1,3 +1,5 @@
+I built an Employee Management System using React functional components and hooks. Dashboard.jsx is the parent component that manages employee state. EmployeeForm handles adding and editing employees. EmployeeTable displays employee records. SearchBar provides searching and department filtering. ConfirmModal is used before deleting records. I created a custom useLocalStorage hook to persist employee data after page refresh. Validation is handled in validation.js for email and phone number checks. Additional features include CSV export, image upload, sorting by name and joining date, and responsive design using Flexbox and media queries.
+
 Objective
 Build a React application to manage employees with Create, Read, Update, and Delete (CRUD) functionality.
 Requirements
